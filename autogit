@@ -1,0 +1,4 @@
+#!/bin/bash
+while true; do
+    fd | entr -dns "git add -A ; git commit -m 'auto-commit'"
+done
