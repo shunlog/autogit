@@ -1,0 +1,10 @@
+[Unit]
+Description=autogit (org notes)
+
+[Service]
+Type=simple
+WorkingDirectory=%h/org
+ExecStart=%h/Projects/mine/autogit/autogit
+
+[Install]
+WantedBy=default.target
